@@ -9,7 +9,7 @@ const UIElements = {
 };
 
 const testConfig = {
-    fileSize: 600 * 1024 * 1024, // 200 MB
+    fileSize: 100 * 1024 * 1024, // 100 MB
     maxSpeedForGauge: 1000, // Max speed in Mbps for the gauge
 };
 
