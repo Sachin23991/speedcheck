@@ -16,7 +16,7 @@ app.get('/ping', (req, res) => {
 });
 
 app.get('/test-files/random.dat', (req, res) => {
-  const fileSizeInMB = 600;
+  const fileSizeInMB = 100;
   const totalSize = fileSizeInMB * 1024 * 1024;
   const chunkSize = 1 * 1024 * 1024;
   const chunk = Buffer.alloc(chunkSize, '0');
